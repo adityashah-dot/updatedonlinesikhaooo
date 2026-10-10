@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+@layer base {
+  *, ::before, ::after {
+    font-family: 'Poppins', sans-serif !important;
+  }
+  html, body {
+    font-family: 'Poppins', sans-serif !important;
+    color: #1a222f;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+  h1 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+  }
+  h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  button, input, select, textarea, optgroup {
+    font-family: 'Poppins', sans-serif !important;
+  }
+  b, strong {
+    font-weight: 600;
+  }
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.font-700 {
+  font-weight: 700 !important;
+}
+
+.page-section {
+  margin-bottom: 22.5px;
+}
+
+.section-title {
+  margin-bottom: 8px;
+}
+
+.section-description {
+  margin-bottom: 12px;
+}
+
+.card {
+  padding: 16px 18px;
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 12px 14px;
+  }
+}
+
+.content-block {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.hide-scrollbar::-webkit-scrollbar, .no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar, .no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Fluid Navy Gradient Transitions across Viewport Sizes */
+.hero-fluid-navy-bg {
+  background: linear-gradient(135deg, #030f21 0%, #082142 45%, #05162d 100%);
+  background-size: 200% 200%;
+  animation: heroGradientShift 14s ease-in-out infinite;
+  transition: background 0.7s cubic-bezier(0.4, 0, 0.2, 1), padding 0.5s ease-in-out;
+}
+
+@keyframes heroGradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Horizontal Infinite Marquee Animations */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee-slow {
+  display: flex;
+  width: max-content;
+  animation: marquee 50s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-slow:hover {
+  animation-play-state: paused;
+}

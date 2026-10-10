@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 110" width="460" height="110">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b5cad"/>
+      <stop offset="100%" stop-color="#084a8c"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <!-- Logo Mark Container -->
+  <g transform="translate(10, 10)">
+    <!-- Base geometric rounded emblem -->
+    <rect x="0" y="0" width="90" height="90" rx="22" fill="#0b2540"/>
+    <rect x="1.5" y="1.5" width="87" height="87" rx="20.5" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <circle cx="45" cy="45" r="32" fill="#0b5cad" opacity="0.3"/>
+    <!-- Academic Cap / Open Book Hybrid Icon -->
+    <polygon points="45,22 72,34 45,46 18,34" fill="url(#primaryGrad)"/>
+    <polygon points="45,25 68,34 45,43 22,34" fill="#60a5fa" opacity="0.35"/>
+    <path d="M28,39 L28,48 C28,55 36,60 45,60 C54,60 62,55 62,48 L62,39 L45,47 Z" fill="#ffffff" opacity="0.95"/>
+    <path d="M22,54 C32,50 40,54 44,57 L44,69 C39,66 31,63 22,66 Z" fill="url(#primaryGrad)"/>
+    <path d="M68,54 C58,50 50,54 46,57 L46,69 C51,66 59,63 68,66 Z" fill="url(#accentGrad)"/>
+    <path d="M64,35 L70,44 L70,58" fill="none" stroke="#93c5fd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="70" cy="59" r="2.5" fill="#93c5fd"/>
+  </g>
+  <!-- Typography: Online Siksha -->
+  <g transform="translate(120, 20)">
+    <text x="0" y="44" font-family="'Poppins', system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#0b2540" letter-spacing="-0.8">
+      Online <tspan fill="#0b5cad">Siksha</tspan>
+    </text>
+    <text x="2" y="66" font-family="'Poppins', system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#55626f" letter-spacing="1.8">
+      HIGHER EDUCATION GATEWAY
+    </text>
+    <circle cx="230" cy="62" r="3" fill="#10b981"/>
+    <text x="238" y="66" font-family="'Poppins', system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600" fill="#059669" letter-spacing="0.5">
+      UGC-ENTITLED
+    </text>
+  </g>
+</svg>
