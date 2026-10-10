@@ -728,7 +728,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹11.2 LPA Avg',
     highestPackage: '₹44.0 LPA',
     established: 'Est. 1963',
-    image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'niftem',
@@ -751,7 +751,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹6.8 LPA Avg',
     highestPackage: '₹18.0 LPA',
     established: 'Est. 2006',
-    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'amity-gurugram',
@@ -774,7 +774,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹7.5 LPA Avg',
     highestPackage: '₹32.0 LPA',
     established: 'Est. 2010',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
     universityId: 'amity-online',
   },
   {
@@ -798,7 +798,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹6.2 LPA Avg',
     highestPackage: '₹24.0 LPA',
     established: 'Est. 1993',
-    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'mriirs',
@@ -821,7 +821,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹6.5 LPA Avg',
     highestPackage: '₹34.0 LPA',
     established: 'Est. 1997',
-    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'iiit-hyd',
@@ -844,7 +844,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹30.0 LPA Avg',
     highestPackage: '₹1.02 Cr',
     established: 'Est. 1998',
-    image: 'https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'osmania-univ',
@@ -867,7 +867,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹5.5 LPA Avg',
     highestPackage: '₹22.0 LPA',
     established: 'Est. 1918',
-    image: 'https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'iisc-blr',
@@ -890,7 +890,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹28.0 LPA Avg',
     highestPackage: '₹86.0 LPA',
     established: 'Est. 1909',
-    image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'jain-blr',
@@ -913,7 +913,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹6.8 LPA Avg',
     highestPackage: '₹30.0 LPA',
     established: 'Est. 1990',
-    image: 'https://images.unsplash.com/photo-1525921429624-479b6a26d84d?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
     universityId: 'jain-online',
   },
   {
@@ -937,7 +937,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹14.5 LPA Avg',
     highestPackage: '₹38.0 LPA',
     established: 'Est. 1971',
-    image: 'https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'coep-pune',
@@ -960,7 +960,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹9.8 LPA Avg',
     highestPackage: '₹50.5 LPA',
     established: 'Est. 1854',
-    image: 'https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'iit-madras',
@@ -983,7 +983,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹21.4 LPA Avg',
     highestPackage: '₹1.31 Cr',
     established: 'Est. 1959',
-    image: 'https://images.unsplash.com/photo-1576495199011-eb94736d05d6?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'srm-ist',
@@ -1006,7 +1006,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹7.7 LPA Avg',
     highestPackage: '₹42.5 LPA',
     established: 'Est. 1985',
-    image: 'https://images.unsplash.com/photo-1568792923760-d70635a89fac?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'iit-bombay',
@@ -1029,7 +1029,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹23.5 LPA Avg',
     highestPackage: '₹1.68 Cr',
     established: 'Est. 1958',
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
   },
   {
     id: 'nmims-mumbai',
@@ -1052,7 +1052,7 @@ export const COLLEGES_BY_LOCATION: CollegeLocationData[] = [
     avgPackage: '₹19.4 LPA Avg',
     highestPackage: '₹67.8 LPA',
     established: 'Est. 1981',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+    image: '/images/education-campus.svg',
     universityId: 'nmims-online',
   },
 ];
