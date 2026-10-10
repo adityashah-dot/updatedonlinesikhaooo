@@ -1,0 +1,8 @@
+{
+  "name": "Online Siksha - LPU Online Degrees & Admissions Portal",
+  "description": "UGC-entitled online degree programs, fee structures, scholarship calculators, and admissions for Lovely Professional University Online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

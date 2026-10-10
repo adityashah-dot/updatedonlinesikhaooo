@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var currentFetch = typeof originalFetch === 'function' ? originalFetch.bind(window) : originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function() {
+              return currentFetch;
+            },
+            set: function(newFetch) {
+              currentFetch = newFetch;
+            }
+          });
+        } catch (e) {
+          // Ignore if environment seals properties
+        }
+
+        window.addEventListener('error', function(e) {
+          if (e && e.filename && e.filename.indexOf('chrome-extension://') !== -1) {
+            e.preventDefault();
+          }
+        }, true);
+      })();
+    </script>
+    <title>Online Siksha - LPU Online Degrees & Admissions Portal</title>
+    <meta name="description" content="UGC-entitled online degree programs, fee structures, scholarship calculators, and admissions for Lovely Professional University Online." />
+    <meta property="og:title" content="Online Siksha - LPU Online Degrees & Admissions Portal" />
+    <meta property="og:description" content="UGC-entitled online degree programs, fee structures, scholarship calculators, and admissions for Lovely Professional University Online." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#f9f9ff] text-[#111c2d] antialiased selection:bg-[#d5e3ff] selection:text-[#001b3c]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
